@@ -34,7 +34,10 @@ public final class R {
         public static final int search_32=0x7f020014;
     }
     public static final class id {
-        public static final int benefit_text_id=0x7f070029;
+        public static final int EliMesageId=0x7f070028;
+        public static final int EliSubjectId=0x7f070027;
+        public static final int ElisendeventId=0x7f070026;
+        public static final int benefit_text_id=0x7f07002c;
         public static final int btnLogin=0x7f07001b;
         public static final int btnRegister=0x7f070024;
         public static final int btn_client_coupon=0x7f07000a;
@@ -50,7 +53,7 @@ public final class R {
         public static final int btn_update_menu=0x7f07001d;
         public static final int client_menu=0x7f070007;
         public static final int header=0x7f070017;
-        public static final int image=0x7f07002a;
+        public static final int image=0x7f07002d;
         public static final int link_to_login=0x7f070025;
         public static final int link_to_register=0x7f07001c;
         public static final int list=0x7f070008;
@@ -58,8 +61,8 @@ public final class R {
         public static final int login_email=0x7f070018;
         public static final int login_error=0x7f07001a;
         public static final int login_password=0x7f070019;
-        public static final int menu_settings=0x7f07002b;
-        public static final int number_to_coupon_id=0x7f070027;
+        public static final int menu_settings=0x7f07002e;
+        public static final int number_to_coupon_id=0x7f07002a;
         public static final int reg_email=0x7f070021;
         public static final int reg_fullname=0x7f070020;
         public static final int reg_password=0x7f070022;
@@ -68,7 +71,7 @@ public final class R {
         public static final int setcoponbuttunID=0x7f070012;
         public static final int setnumcoponchangerID=0x7f07000f;
         public static final int subtractButtunID=0x7f070013;
-        public static final int textBenefit=0x7f070026;
+        public static final int textBenefit=0x7f070029;
         public static final int textView1=0x7f070010;
         public static final int textView2=0x7f07000e;
         public static final int textView3=0x7f070011;
@@ -77,7 +80,7 @@ public final class R {
         public static final int txtTitle=0x7f070000;
         public static final int txt_edit=0x7f070002;
         public static final int txt_search=0x7f070001;
-        public static final int your_benefit_id=0x7f070028;
+        public static final int your_benefit_id=0x7f07002b;
     }
     public static final class layout {
         public static final int actionbar_layout=0x7f030000;
@@ -92,17 +95,19 @@ public final class R {
         public static final int client_list=0x7f030009;
         public static final int client_menu_layout=0x7f03000a;
         public static final int coponchanger=0x7f03000b;
-        public static final int header_gradient=0x7f03000c;
-        public static final int list_row=0x7f03000d;
-        public static final int login=0x7f03000e;
-        public static final int menu_activity=0x7f03000f;
-        public static final int owner_fragment_layout=0x7f030010;
-        public static final int owner_menu=0x7f030011;
-        public static final int owner_menu_layout=0x7f030012;
-        public static final int register=0x7f030013;
-        public static final int tab_coupon=0x7f030014;
-        public static final int tab_events=0x7f030015;
-        public static final int tab_menu=0x7f030016;
+        public static final int eligetevent=0x7f03000c;
+        public static final int header_gradient=0x7f03000d;
+        public static final int list_row=0x7f03000e;
+        public static final int login=0x7f03000f;
+        public static final int menu_activity=0x7f030010;
+        public static final int owner_fragment_layout=0x7f030011;
+        public static final int owner_menu=0x7f030012;
+        public static final int owner_menu_layout=0x7f030013;
+        public static final int register=0x7f030014;
+        public static final int seteventeli=0x7f030015;
+        public static final int tab_coupon=0x7f030016;
+        public static final int tab_events=0x7f030017;
+        public static final int tab_menu=0x7f030018;
     }
     public static final class menu {
         public static final int activity_business_list=0x7f060000;

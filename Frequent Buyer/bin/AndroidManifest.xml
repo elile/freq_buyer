@@ -55,6 +55,8 @@
             android:label="@string/title_activity_business_list"
             android:windowSoftInputMode="stateHidden" >
         </activity>
+        
+        <activity android:name="com.example.frequent_buyer.clientTabEvents" />
     </application>
 
 </manifest>

@@ -75,7 +75,7 @@ public class ClientMenu extends Activity
 			public void onClick(View view) 
 			{
 				// Launching Events Screen
-				Intent activity = new Intent(ClientMenu.this, TabEvents.class);
+				Intent activity = new Intent(ClientMenu.this, clientTabEvents.class);
 				startActivity(activity);
 			}
 		});
