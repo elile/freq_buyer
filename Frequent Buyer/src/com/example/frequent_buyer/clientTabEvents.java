@@ -53,13 +53,15 @@ public class clientTabEvents extends Activity
 			JSONObject in_jarr;
 			String mess;
 			String sub;
+			String date;
 			String to_screen = "";
 			int b = 1;
 			for (int i = jarr.length()-1; i>=0; i--) {
 				in_jarr = (JSONObject) jarr.get(i);
 				mess = in_jarr.getString("message");
 				sub = in_jarr.getString("subject");
-				to_screen += b+") subject: " + sub + "\n" + "message : "+ mess + "\n\n";
+				date = in_jarr.getString("date");
+				to_screen += date+") subject: " + sub + "\n" + "message : "+ mess + "\n\n";
 				b++;
 			}
 			myText.setTextSize(30);

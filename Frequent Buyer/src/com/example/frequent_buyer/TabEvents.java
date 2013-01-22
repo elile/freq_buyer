@@ -20,14 +20,16 @@ public class TabEvents extends Activity
 	JSONParser jsonParser;
 	Button sendEvent;
 	EditText subject,message;
-	String string_subject,string_message;
+	String string_subject,string_message,string_date;
 	String business;
 	String setevnt = "http://eliproj1.site88.net/setevent.php";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
 	{
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.seteventeli);
+		Bundle b = getIntent().getExtras();
+		string_date = b.getString("Date");
 		subject = (EditText)findViewById(R.id.EliSubjectId);
 		message = (EditText)findViewById(R.id.EliMesageId);
 		sendEvent = (Button)findViewById(R.id.ElisendeventId);
@@ -48,6 +50,7 @@ public class TabEvents extends Activity
 						params.add(new BasicNameValuePair("subject", string_subject));
 						params.add(new BasicNameValuePair("message", string_message));
 						params.add(new BasicNameValuePair("businessName", business));
+						params.add(new BasicNameValuePair("date", string_date));
 						jsonParser.getJSONFromUrl(setevnt, params);		
 					}
 				};

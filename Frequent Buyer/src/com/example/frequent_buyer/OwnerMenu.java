@@ -85,8 +85,9 @@ public class OwnerMenu extends Activity
 			public void onClick(View view) 
 			{
 				// Launching Coupon Screen
-				Intent activity = new Intent(OwnerMenu.this, TabEvents.class);
-				startActivity(activity);
+				//Intent activity = new Intent(OwnerMenu.this, TabEvents.class);
+				//startActivity(activity);
+				startActivity(new Intent(OwnerMenu.this,SimpleCalendarViewActivity.class));
 			}
 		});
 
