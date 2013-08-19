@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActionBarCompat" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="175dip"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:paddingLeft="15dip"
+        android:paddingTop="5dip"
+        android:text="Frequent Buyer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/txt_search"
+        style="@style/DashboardButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:gravity="left|center_vertical"
+        android:hint="Search for business"
+        android:paddingTop="5dip"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    
+        <EditText
+        android:id="@+id/txt_edit"
+        style="@style/DashboardButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:layout_toLeftOf="@+id/btn_logout"
+        android:gravity="left|center_vertical"
+        android:paddingTop="5dip"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/DashboardButton"
+        android:layout_alignParentRight="true"
+        android:drawableTop="@drawable/log_out_32"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip" />
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/DashboardButton"
+        android:layout_alignParentRight="true"
+        android:drawableTop="@drawable/save"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        style="@style/DashboardButton"
+        android:layout_toLeftOf="@+id/btn_logout"
+        android:drawableTop="@drawable/edit"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_search"
+        style="@style/DashboardButton"
+        android:layout_toLeftOf="@+id/btn_logout"
+        android:drawableTop="@drawable/ic_action_search"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:visibility="invisible" />
+
+</RelativeLayout>

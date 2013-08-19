@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/setbenefitcoponchangerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="260dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="13dp"
+        android:gravity="center"
+        android:text="Set coupon"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/setnumcoponchangerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="128dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="2dp"
+        android:layout_y="69dp"
+        android:gravity="center"
+        android:text="Please enter new number"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="220dp"
+        android:gravity="center"
+        android:text="Please enter new benefit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/setcoponbuttunID"
+        android:layout_width="159dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="321dp"
+        android:gravity="center"
+        android:text="set coupon" />
+
+    <Button
+        android:id="@+id/subtractButtunID"
+        android:layout_width="159dp"
+        android:layout_height="62dp"
+        android:layout_x="78dp"
+        android:layout_y="415dp"
+        android:gravity="center"
+        android:text="subtract from coupon (-1)" />
+
+</AbsoluteLayout>

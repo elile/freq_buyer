@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frequent_buyer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.frequent_buyer.LoadingScreen"
+            android:label="Frequent Buyer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.frequent_buyer.Login"
+            android:label="Login to your Account" >
+        </activity>
+
+        <!-- Entry for RegisterActivity.class -->
+        <activity
+            android:name="com.example.frequent_buyer.Register"
+            android:label="Register New Account" >
+        </activity>
+        <activity
+            android:name="com.example.frequent_buyer.BusinessMenu"
+            android:label="@string/title_activity_business_menu" >
+        </activity>
+        <activity android:name="com.example.frequent_buyer.ClientMenu" >
+        </activity>
+        <activity
+            android:name="com.example.frequent_buyer.OwnerMenu"
+            android:label="@string/title_activity_owner_menu" >
+        </activity>
+        <activity android:name="com.example.frequent_buyer.TabCoupon" />
+        <activity android:name="com.example.frequent_buyer.TabMenu" />
+        <activity android:name="com.example.frequent_buyer.TabEvents" />
+        <activity android:name="com.example.frequent_buyer.ClientList" />
+        <activity android:name="com.example.frequent_buyer.CouponChanger" />
+        <activity android:name="com.example.frequent_buyer.SimpleCalendarViewActivity" />
+        <activity
+            android:name="com.example.frequent_buyer.BusinessList"
+            android:label="@string/title_activity_business_list"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity android:name="com.example.frequent_buyer.clientTabEvents" />
+    </application>
+
+</manifest>
